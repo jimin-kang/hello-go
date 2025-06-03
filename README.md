@@ -1,0 +1,1 @@
+Walk through of [How to Write Go Code](https://go.dev/doc/code), since I really don't know how to write Go.
