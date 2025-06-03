@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"hello/morestrings"
+)
 
 func main() {
-	fmt.Println("hello world!")
+	reversed := "nimij"
+	original := morestrings.ReverseRunes(reversed)
+	fmt.Printf("Original: %v, Reversed: %v \n", reversed, original)
 }
